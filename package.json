@@ -1,0 +1,28 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "week 1 assignment, introducing our tech stack",
+  "main": "server.js",
+  "scripts": {
+    "_comment1": "install nodemon for local use only with (npm install --save-dev nodemon) use Procfile to sort out on server",
+    "_comment2": "in command prompt, type: npm run <e.g. start> to execute corresponding line",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "frog": "ribbit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackadder-git/cse341/week1"
+  },
+  "author": "JC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

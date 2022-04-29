@@ -1,0 +1,37 @@
+// LOCALHOST 
+### 
+GET http://localhost:3000/contacts 
+
+### Gruffalo 
+GET http://localhost:3000/contacts/62685a8ef404f66843a29aed
+
+### Mouse
+GET http://localhost:3000/contacts/62685c12f404f66843a29aee
+
+### Fox
+GET http://localhost:3000/contacts/62685cbdf404f66843a29aef
+
+### Owl
+GET http://localhost:3000/contacts/62685d9af404f66843a29af0
+
+### Snake
+GET http://localhost:3000/contacts/62685e22f404f66843a29af1
+
+
+// PRODUCTION Deploy 
+GET https://cse341-week1.herokuapp.com/contacts 
+
+### Gruffalo 
+GET http://cse341-week1.herokuapp.com/contacts/62685a8ef404f66843a29aed
+
+### Mouse
+GET http://cse341-week1.herokuapp.com/contacts/62685c12f404f66843a29aee
+
+### Fox
+GET http://cse341-week1.herokuapp.com/contacts/62685cbdf404f66843a29aef
+
+### Owl
+GET http://cse341-week1.herokuapp.com/contacts/62685d9af404f66843a29af0
+
+### Snake
+GET http://localhost:3000/contacts/62685e22f404f66843a29af1
