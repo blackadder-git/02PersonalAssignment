@@ -19,19 +19,19 @@ GET http://localhost:3000/contacts/62685e22f404f66843a29af1
 
 
 // PRODUCTION Deploy 
-GET https://cse341-week1.herokuapp.com/contacts 
+GET https://personalassignment02.herokuapp.com/contacts 
 
 ### Gruffalo 
-GET http://cse341-week1.herokuapp.com/contacts/62685a8ef404f66843a29aed
+GET https://personalassignment02.herokuapp.com/contacts/62685a8ef404f66843a29aed
 
 ### Mouse
-GET http://cse341-week1.herokuapp.com/contacts/62685c12f404f66843a29aee
+GET https://personalassignment02.herokuapp.com/contacts/62685c12f404f66843a29aee
 
 ### Fox
-GET http://cse341-week1.herokuapp.com/contacts/62685cbdf404f66843a29aef
+GET https://personalassignment02.herokuapp.com/contacts/62685cbdf404f66843a29aef
 
 ### Owl
-GET http://cse341-week1.herokuapp.com/contacts/62685d9af404f66843a29af0
+GET https://personalassignment02.herokuapp.com/contacts/62685d9af404f66843a29af0
 
 ### Snake
-GET http://localhost:3000/contacts/62685e22f404f66843a29af1
+GET https://personalassignment02.herokuapp.com/contacts/62685e22f404f66843a29af1
