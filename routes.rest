@@ -1,23 +1,52 @@
+
+@host = localhost:3000
+@contentType = application/json
+
+
+// ***************************************************
 // LOCALHOST 
+// ***************************************************
 ### 
-GET http://localhost:3000/contacts 
+GET http://{{host}}/contacts 
 
 ### Gruffalo 
-GET http://localhost:3000/contacts/62685a8ef404f66843a29aed
+GET http://{{host}}/contacts/62685a8ef404f66843a29aed
 
 ### Mouse
-GET http://localhost:3000/contacts/62685c12f404f66843a29aee
+GET http://{{host}}/contacts/62685c12f404f66843a29aee
 
 ### Fox
-GET http://localhost:3000/contacts/62685cbdf404f66843a29aef
+GET http://{{host}}/contacts/62685cbdf404f66843a29aef
 
 ### Owl
-GET http://localhost:3000/contacts/62685d9af404f66843a29af0
+GET http://{{host}}/contacts/62685d9af404f66843a29af0
 
 ### Snake
-GET http://localhost:3000/contacts/62685e22f404f66843a29af1
+GET http://{{host}}/contacts/62685e22f404f66843a29af1
+
+### 
+POST http://{{host}}/contacts/create HTTP/1.1 
+content-type: {{contentType}}
+
+{
+"firstName":"Mother", "lastName":"Squirell", "email":"msquirell@tree.com", "favoriteColor":"brown", "birthday":"2002-04-30"
+}
+
+### 
+PUT http://{{host}}/contacts/update/6272947069c09b0855edbb4e HTTP/1.1 
+content-type: {{contentType}}
+
+{
+"firstName":"Mother", "lastName":"Squirell", "email":"msquirell@tree.com", "favoriteColor":"blue", "birthday":"2002-04-30"
+}
+
+### 
+DELETE http://{{host}}/contacts/delete/6272a27f4471250f10fb83b2
 
 
+// ***************************************************
+// HEROKU
+// ***************************************************
 // PRODUCTION Deploy 
 GET https://personalassignment02.herokuapp.com/contacts 
 

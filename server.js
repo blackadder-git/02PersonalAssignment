@@ -15,7 +15,7 @@ const app = express();
 // Create a route in your server that will return you the name of someone you know.
 // when the default page is hit, load the routes folder
 app
-.use(bodyParser.json())
+.use(bodyParser.json()) // vs bodyParser.urlencoded({ extended: true })
 .use((req, res, next) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
@@ -26,7 +26,7 @@ app
 //mongodb.initialDb((err, mongodb) => {
 mongodb.initDb((err, mongodb) => {
 
-    // only one will be set
+    // start server if db is connected
     if (err) {
         console.log(err);
     }

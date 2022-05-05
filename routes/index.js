@@ -1,5 +1,6 @@
 const router = require('express').Router();
 
+// route any uri that begins with /contacts to the contacts file
 router.use('/contacts', require('./contacts'));
 
 /*
